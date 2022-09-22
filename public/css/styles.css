@@ -411,6 +411,37 @@ textarea {
   resize: vertical;
 }
 
+.space {
+  padding-top: 30px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  margin-bottom: 30px;
+  margin-right: 1px;
+  margin-left: 1px;
+  background-color: #0dcaf0;
+}
+
+.project-card h4 {
+  padding: 10px 0 5px 0;
+  text-align: center;
+}
+
+.project-card a {
+  padding-left: 10px;
+}
+
+.project-img {
+  background-color: #04414d;
+  height: 150px;
+}
+
 fieldset {
   min-width: 0;
   padding: 0;

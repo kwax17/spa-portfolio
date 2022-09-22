@@ -4,47 +4,33 @@ function Project() {
     return (
             <section className="resume-section" id="projects">
                 <div className="resume-section-content">
-                    <h2 className="mb-5">Awards & Certifications</h2>
-                    <ul className="fa-ul mb-0">
-                        <li>
-                            <span className="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+                    <h2 className="mb-5">Projects</h2>
+                    <div className="mb-0 projects">
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>DnD Character Creator <a className="social-icon" href="https://github.com/tristristy/dnd-character-creator"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>Note Tracker <a className="social-icon" href="https://github.com/kwax17/note-tracker"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>Weather App <a className="social-icon" href="https://github.com/kwax17/the-weather"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>Tech Blog <a className="social-icon" href="https://github.com/kwax17/the-social-network"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>Quizzy <a className="social-icon" href="https://github.com/kwax17/quizzy"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                        <div className='project-card col-4'>
+                            <div className='project-img'><img href='!#' alt='' ></img></div>
+                            <h4>Team Generator<a className="social-icon" href="https://github.com/kwax17/team-generator"><i className="fab fa-github"></i></a></h4>
+                        </div>
+                    </div>
                 </div>
             </section>
     );

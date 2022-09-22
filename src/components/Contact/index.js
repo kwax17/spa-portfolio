@@ -35,7 +35,7 @@ function ContactForm() {
   return (
     <section className="resume-section" id="contact">
       <div className="contact-section-content">
-        <h2 className="mb-5" data-testid='h2tag'>Contact</h2>
+        <h2 className="mb-5" data-testid='h2tag'>Contact Me</h2>
         <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label className='mb-0' htmlFor="name">Name:</label>
