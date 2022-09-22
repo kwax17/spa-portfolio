@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 107, 145, 114;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -238,7 +238,7 @@ sup {
 
 a {
   color: #bd5d38;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #974a2d;
@@ -425,7 +425,8 @@ textarea {
   margin-bottom: 30px;
   margin-right: 1px;
   margin-left: 1px;
-  background-color: #0dcaf0;
+  background-color: #6b9172;
+  box-shadow: 7px 7px 20px black;
 }
 
 .project-card h4 {
@@ -433,13 +434,22 @@ textarea {
   text-align: center;
 }
 
+.project-card h4 a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.project-card h4 a:hover {
+  color: #bd5d38;
+}
+
 .project-card a {
   padding-left: 10px;
 }
 
-.project-img {
-  background-color: #04414d;
-  height: 150px;
+.project-img img {
+  max-width:100%;
+  max-height:100%;
 }
 
 fieldset {
@@ -7765,7 +7775,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #bd5d38 !important;
 }
 
 .text-secondary {
