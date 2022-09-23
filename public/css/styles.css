@@ -403,7 +403,7 @@ button:not(:disabled),
 
 #contact-form input, textarea {
   /* padding-left: 30pt; */
-  margin: 7pt;
+  margin: 7pt 7pt 0 7pt;
   width: 275pt;
 }
 

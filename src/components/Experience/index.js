@@ -4,7 +4,7 @@ function Experience() {
     return (
         <section className="resume-section" id="experience">
             <div className="resume-section-content">
-                <h2 className="mb-5">Experience</h2>
+                <h2 className="mb-5">Experience/<a href='/resume/Wacker-Resume.pdf' download>Resume</a></h2>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Graphic Designer</h3>
