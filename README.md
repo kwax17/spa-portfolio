@@ -21,6 +21,8 @@ To see the project in development mode, enter 'npm start' amd navigate to [http:
 
 To build the project into a single folder/production mode, enter 'npm run build.'  This bundles everything together and optimizes performance so the files can be deployed.
 
+![Landing Page](http://www.github.com/)
+
 ## Questions
 Enjoy!
 Email: kelwacker@gmail.com
