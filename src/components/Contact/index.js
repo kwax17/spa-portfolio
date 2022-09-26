@@ -36,7 +36,7 @@ function ContactForm() {
     <section className="resume-section" id="contact">
       <div className="contact-section-content">
         <h2 className="mb-5" data-testid='h2tag'>Contact Me</h2>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form id="contact-form" onSubmit={handleSubmit} method='post' action="mailto:kwax@kwacks.net" >
         <div>
           <label className='mb-0' htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -54,7 +54,12 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit" value="Send">Submit</button>
+        <input type="hidden" name="recipient" value="kwax@kwacks.net" />
+        <input type="hidden" name="subject" value="Subject" />
+        {/* <input type="hidden" name="redirect"  value="https://www.example.com/thanks.html" /> */}
+        {/* <input type="hidden" name="missing_fields_redirect"  value="https://www.example.com/error.html" /> */}
+        <input type="hidden" name="required" value="name,email,message" />
       </form>
       </div>
     </section>

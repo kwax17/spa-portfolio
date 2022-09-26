@@ -13,7 +13,7 @@ function Nav() {
                     <h3>Kelly Wacker</h3>
                     <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#photos">Photos</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience/Resume</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact Me</a></li>

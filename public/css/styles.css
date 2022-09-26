@@ -452,6 +452,16 @@ textarea {
   max-height:100%;
 }
 
+.photos img {
+  width: 100%;
+  /* height: 10; */
+}
+
+.skills {
+  text-align: center;
+  padding-top: 15px;
+}
+
 fieldset {
   min-width: 0;
   padding: 0;

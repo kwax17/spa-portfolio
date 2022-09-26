@@ -1,11 +1,12 @@
+import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience'
-import Skills from './components/Skills';
+import Photos from './components/Photos';
 import Interests from './components/Interests';
 import Footer from './components/Footer';
 import Project from './components/Project';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <hr className="m-0" />
           <Project></Project>
           <hr className="m-0" />
-          <Skills></Skills>
+          <Photos></Photos>
           <hr className="m-0" />
           <Experience></Experience>
           <hr className="m-0" />

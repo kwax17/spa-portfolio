@@ -9,7 +9,7 @@ function About() {
                     <span className="text-primary"> Wacker</span>
                 </h1>
                 <div className="subheading mb-5">
-                    39 Claudia Lane · Manahawkin, NJ 08050 · (201) 937-8956 ·
+                    Manahawkin, NJ 08050 · (201) 937-8956 ·
                     <a href="mailto:kelwacker@gmail.com"> kelwacker@gmail.com</a>
                 </div>
                 <p className="lead mb-5">A positive and motivated individual with an eye for graphic art and visual identity, along with customer service experience, pursuing a career in the film, design, and media industry. Understands current social and stylistic trends, and offers creative solutions and ideas in the workplace.</p>

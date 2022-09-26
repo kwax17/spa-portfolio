@@ -31,6 +31,17 @@ function Experience() {
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">May 2020 - Present</span></div>
                 </div>
+                <div className='skills'>
+                    <h3 className="mb-0">Programming Languages and Tools</h3>
+                    <ul className="list-inline dev-icons">
+                        <li className="list-inline-item"><i className="fab fa-html5"></i></li>
+                        <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
+                        <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
+                        <li className="list-inline-item"><i className="fab fa-react"></i></li>
+                        <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
+                        <li className="list-inline-item"><i className="fa-brands fa-npm"></i></li>
+                    </ul>
+                </div>
             </div>
         </section>
     );
