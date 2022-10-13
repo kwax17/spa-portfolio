@@ -374,6 +374,10 @@ select:disabled {
   display: none;
 }
 
+/* .input-field {
+  ju
+} */
+
 button,
 [type=button],
 [type=reset],
@@ -403,8 +407,14 @@ button:not(:disabled),
 
 #contact-form input, textarea {
   /* padding-left: 30pt; */
-  margin: 7pt 7pt 0 7pt;
+  /* margin: 7pt 7pt 0 7pt; */
   width: 275pt;
+}
+
+.submitbtn {
+  background-color: #6b9172;
+  padding: 5px 10px;
+  color: white;
 }
 
 textarea {
