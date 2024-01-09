@@ -11,7 +11,7 @@ function Experience() {
                         <div className="subheading mb-3">The Sandpaper</div>
                         <p>Employ creative methods to create, edit, and rearrange advertisements for a weekly paper, ensuring both a happy customer and engaging layout.</p>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">June 2022 - Present</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">June 2022 - September 2022</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">

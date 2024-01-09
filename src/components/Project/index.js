@@ -8,11 +8,11 @@ function Project() {
                     <div className="mb-0 projects">
                     <div className='project-card col-5'>
                         <div className='project-img'><img src={require(`../../assets/img/movieswipe.png`)} alt='' ></img></div>
-                            <h4><a href='https://movie-swipe-application.herokuapp.com/'>Movie Swipe</a> <a className="social-icon" href="https://github.com/kwax17/note-tracker"><i className="fab fa-github"></i></a></h4>
+                            <h4><a href='https://movie-swipe-application.herokuapp.com/'>Movie Swipe</a> <a className="social-icon" href="https://github.com/rrvallar/Project-3"><i className="fab fa-github"></i></a></h4>
                         </div>
                         <div className='project-card col-5'>
                             <div className='project-img'><img src={require(`../../assets/img/dnd.png`)} alt='' ></img></div>
-                            <h4><a href='https://dry-sands-22029.herokuapp.com/'>DnD Character Creator</a> <a className="social-icon" href="https://github.com/rrvallar/Project-3"><i className="fab fa-github"></i></a></h4>
+                            <h4><a href='https://dry-sands-22029.herokuapp.com/'>DnD Character Creator</a> <a className="social-icon" href="https://github.com/tristristy/dnd-character-creator"><i className="fab fa-github"></i></a></h4>
                         </div>
                         <div className='project-card col-5'>
                             <div className='project-img'><img src={require(`../../assets/img/weather.png`)} alt='' ></img></div>

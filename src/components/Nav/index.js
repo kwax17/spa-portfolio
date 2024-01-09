@@ -15,7 +15,7 @@ function Nav() {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#photos">Photos</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience/Resume</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#graphics">Graphics</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
