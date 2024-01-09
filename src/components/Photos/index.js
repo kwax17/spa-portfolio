@@ -30,8 +30,8 @@ function Photos() {
                         <SwiperSlide><img src={require(`../../assets/img/photo/1.webp`)} alt="1" /></SwiperSlide>
                         <SwiperSlide><img src={require(`../../assets/img/photo/2.webp`)} alt="2" /></SwiperSlide>
                         <SwiperSlide><img src={require(`../../assets/img/photo/3.webp`)} alt="3" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/4.jwebp`)} alt="4" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/5.Jwebp`)} alt="5" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/4.webp`)} alt="4" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/5.webp`)} alt="5" /></SwiperSlide>
                         <SwiperSlide><img src={require(`../../assets/img/photo/7.webp`)} alt="7" /></SwiperSlide>
                         <SwiperSlide><img src={require(`../../assets/img/photo/8.webp`)} alt="8" /></SwiperSlide>
                         <SwiperSlide><img src={require(`../../assets/img/photo/9.webp`)} alt="9" /></SwiperSlide>

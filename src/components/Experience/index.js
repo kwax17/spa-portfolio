@@ -8,6 +8,16 @@ function Experience() {
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Graphic Designer</h3>
+                        <div className="subheading mb-3">Iris Software</div>
+                        <p> Produce visually compelling PowerPoint decks and presentations that effectively communicate complex ideas to various stakeholders</p>
+                        <p>Lead and contribute to internal web redesign projects, collaborating with cross-functional teams to improve the user experience and overall aesthetic</p>
+                        <p>Develop and design high-quality visual content for digital and print materials, ensuring brand consistency across all platforms</p>
+                    </div>
+                    <div className="flex-shrink-0"><span className="text-primary">February 2023 - Current</span></div>
+                </div>
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="flex-grow-1">
+                        <h3 className="mb-0">Graphic Designer</h3>
                         <div className="subheading mb-3">The Sandpaper</div>
                         <p>Employ creative methods to create, edit, and rearrange advertisements for a weekly paper, ensuring both a happy customer and engaging layout.</p>
                     </div>

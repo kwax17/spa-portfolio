@@ -12,7 +12,7 @@ function About() {
                     Manahawkin, NJ 08050 · (201) 937-8956 ·
                     <a href="mailto:kelwacker@gmail.com"> kelwacker@gmail.com</a>
                 </div>
-                <p className="lead mb-5">A positive and motivated individual with an eye for graphic art and visual identity, along with customer service experience, pursuing a career in the film, design, and media industry. Understands current social and stylistic trends, and offers creative solutions and ideas in the workplace.</p>
+                <p className="lead mb-5">A positive and motivated full stack developer with an eye for graphic art and visual identity pursuing a career in the tech and media industry. Understands current social and stylistic trends, and offers creative solutions and ideas in the workplace. Looking for opportunities to expand my knowledge in the web development world, and further develop my skillset as a full stack engineer.</p>
                 <div className="social-icons">
                 <a className="social-icon" href="https://www.linkedin.com/in/kellywacker/"><i className="fab fa-linkedin-in"></i></a>
                 <a className="social-icon" href="https://github.com/kwax17"><i className="fab fa-github"></i></a>

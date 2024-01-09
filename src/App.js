@@ -17,9 +17,9 @@ function App() {
         <div className="container-fluid p-0">
           <About></About>
           <hr className="m-0" />
-          <Graphic></Graphic>
-          <hr className="m-0" />
           <Project></Project>
+          <hr className="m-0" />
+          <Graphic></Graphic>
           <hr className="m-0" />
           <Photos></Photos>
           <hr className="m-0" />
