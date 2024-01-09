@@ -27,30 +27,29 @@ function Photos() {
                         navigation
                         scrollbar={{ draggable: true }}
                     >
-                        <SwiperSlide><img src={require(`../../assets/img/photo/1.JPG`)} alt="1" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/2.jpg`)} alt="2" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/3.jpg`)} alt="3" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/4.jpg`)} alt="4" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/5.JPG`)} alt="5" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/6.JPG`)} alt="6" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/7.JPG`)} alt="7" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/8.JPG`)} alt="8" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/9.JPG`)} alt="9" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/10.JPG`)} alt="10" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/11.JPG`)} alt="11" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/12.JPG`)} alt="12" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/13.jpg`)} alt="13" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/14.jpg`)} alt="14" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/15.jpg`)} alt="15" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/16.jpg`)} alt="16" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/17.jpg`)} alt="17" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/18.jpg`)} alt="18" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/19.jpg`)} alt="19" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/20.jpg`)} alt="20" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/21.JPG`)} alt="21" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/22.jpg`)} alt="22" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/23.JPG`)} alt="23" /></SwiperSlide>
-                        <SwiperSlide><img src={require(`../../assets/img/photo/24.JPG`)} alt="24" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/1.webp`)} alt="1" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/2.webp`)} alt="2" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/3.webp`)} alt="3" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/4.jwebp`)} alt="4" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/5.Jwebp`)} alt="5" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/7.webp`)} alt="7" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/8.webp`)} alt="8" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/9.webp`)} alt="9" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/10.webp`)} alt="10" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/11.webp`)} alt="11" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/12.webp`)} alt="12" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/13.webp`)} alt="13" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/14.webp`)} alt="14" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/15.webp`)} alt="15" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/16.webp`)} alt="16" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/17.webp`)} alt="17" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/18.webp`)} alt="18" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/19.webp`)} alt="19" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/20.webp`)} alt="20" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/21.webp`)} alt="21" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/22.webp`)} alt="22" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/23.webp`)} alt="23" /></SwiperSlide>
+                        <SwiperSlide><img src={require(`../../assets/img/photo/24.webp`)} alt="24" /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>
