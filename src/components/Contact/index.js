@@ -67,7 +67,7 @@ function ContactForm() {
       <div className="container" data-aos="fade-up">
         {/* section header */}
         <div className="section-header">
-          <h2>Contact</h2>
+          <h2>Drop a Line</h2>
         </div>
         
         <div className="row gx-lg-0 gy-4">
