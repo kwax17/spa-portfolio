@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 // // Import Swiper React components
 // import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,6 +13,16 @@
 // import 'swiper/css/navigation';
 // import 'swiper/css/scrollbar';
 
+import PhotoAlbum from "react-photo-album";
+
+const photos = [
+  { src: "https://live.staticflickr.com/65535/53782764115_4d1711b2b2_z.jpg", width: 800, height: 600},
+  { src: "https://live.staticflickr.com/65535/53782556038_cc3d157f3e_z.jpg"}
+];
+
+export default function Photos() {
+  return <PhotoAlbum layout="masonry" photos={photos} />;
+}
 
 // function Photos() {
 //     return (
@@ -60,14 +70,46 @@
 // export default Photos;
 
 
+// import React from 'react';
+// import PhotoAlbum from 'react-photo-album';
 
-import PhotoAlbum from "react-photo-album";
+// const photos = [
+//   { src: require('../../assets/img/photo/1.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/2.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/3.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/4.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/5.webp'), width: 80, height: 60 },
+// //   { src: require('../../assets/img/photo/6.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/7.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/8.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/9.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/10.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/11.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/12.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/13.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/14.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/15.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/16.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/17.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/18.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/19.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/20.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/21.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/22.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/23.webp'), width: 80, height: 60 },
+//   { src: require('../../assets/img/photo/24.webp'), width: 80, height: 60 },
+// ];
 
-const photos = [
-  { src: "/img/photo/1", width: 800, height: 600 },
-  { src: "/img/photo/2", width: 1600, height: 900 },
-];
-
-export default function Gallery() {
-  return <PhotoAlbum layout="rows" photos={photos} img src={require(`../../assets/img/photo/1.webp`)} alt="1" />;
-}
+// function Photos() {
+//   return (
+//     <section className="resume-section" id="photos">
+//     <div className="resume-section-content">
+//         <h2 className="mb-5">Photography</h2>
+//         <div className="mb-0 photos" col-5>
+//         <PhotoAlbum layout="row" photos={photos}/>
+//         </div>
+//     </div>
+// </section>
+//   )
+// }
+// export default Photos;
